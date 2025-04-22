@@ -14,4 +14,5 @@ this namespace might still change, as the whole project is under development.
 | [com.github.generic-trust-anchor-api.basic.enroll](doc/profile_com.github.generic-trust-anchor-api.basic.enroll.md) | Creation of a Certificate Signing Request (CSR) |
 | [com.github.generic-trust-anchor-api.basic.jwt](doc/profile_com.github.generic-trust-anchor-api.basic.jwt.md) | Creation of signed JWT |
 | [com.github.generic-trust-anchor-api.basic.rsa](doc/profile_com.github.generic-trust-anchor-api.basic.rsa.md) | Creation of a RSA based personality |
-| [com.github.generic-trust-anchor-api.basic.tls](doc/profile_com.github.generic-trust-anchor-api.basic.tls.md) | Signature creation for authentication during TLS handshake |
+| [com.github.generic-trust-anchor-api.basic.signature](doc/profile_com.github.generic-trust-anchor-api.basic.signature.md) | Creation of a digital signature |
+| [com.github.generic-trust-anchor-api.basic.tls](doc/profile_com.github.generic-trust-anchor-api.basic.tls.md) | Alias for com.github.generic-trust-anchor-api.basic.signature |
