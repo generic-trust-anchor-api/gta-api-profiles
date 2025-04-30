@@ -22,7 +22,7 @@ Usage of the profile with any other function than those functions listed in the 
 | **Property** | **Description** |
 | ------------ | ----------------|
 | Profile Dependencies | Shall be usable with any personality that is created with com.github.generic-trust-anchor-api.basic.rsa, com.github.generic-trust-anchor-api.basic.ec and com.github.generic-trust-anchor-api.basic.dilithium |
-| Supported Functions | **Personality attribute functions [^1]**<br>**gta_authenticate_data_detached()**<br><blockquote>computes a digital signature for the data provided as input data.</blockquote> |
+| Supported Functions | **Personality attribute functions [^1]**<br>**gta_personality_activate()** and **gta_personality_deactivate()**<br>**gta_authenticate_data_detached()**<br><blockquote>computes a digital signature for the data provided as input data.</blockquote> |
 | Usage Attributes | N/A |
 | Usage Artifact | Digital signature in the following format depending on the used creation profile:<br>- com.github.generic-trust-anchor-api.basic.rsa: raw bytes (RSASSA-PKCS1-v1_5 using SHA-256)<br>- com.github.generic-trust-anchor-api.basic.ec: DER-encoded (ECDSA with P-256 and SHA-256)<br>- com.github.generic-trust-anchor-api.basic.dilithium: raw bytes |
 
