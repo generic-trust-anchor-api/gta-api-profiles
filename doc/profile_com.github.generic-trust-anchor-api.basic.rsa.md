@@ -12,7 +12,7 @@ The following table specifies the behaviour of the function **gta_personality_cr
 | ------------ | ----------------|
 | Security Mechanism | RSA2048 |
 | Fingerprinting [^1] | The fingerprint is the SHA512 value of the DER encoded private key. |
-| Attributes | N/A |
+| Attributes | **com.github.generic-trust-anchor-api.keytype.openssl [^2]**<BR><blockquote>An attribute of type “com.github.generic-trust-anchor-api.keytype.openssl” and with name ”com.github.generic-trust-anchor-api.keytype.openssl” is created, specifying the type of the secret attribute (“RSA” in this case) of the personality.</blockquote> |
 | Usage Info | Intended for use with com.github.generic-trust-anchor-api.basic.jwt |
 
 [^1]: Fingerprinting: description under discussion; may be changed in the future
