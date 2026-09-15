@@ -9,7 +9,7 @@ this namespace might still change, as the whole project is under development.
 
 | Profile name | Short description |
 | :----------- | :---------------- |
-| [com.github.generic-trust-anchor-api.basic.dilithium](doc/profile_com.github.generic-trust-anchor-api.basic.dilithium.md) | Creation of a Dilithium based personality |
+| [com.github.generic-trust-anchor-api.basic.ml-dsa](doc/profile_com.github.generic-trust-anchor-api.basic.ml-dsa.md) | Creation of a ML-DSA based personality |
 | [com.github.generic-trust-anchor-api.basic.ec](doc/profile_com.github.generic-trust-anchor-api.basic.ec.md) | Creation of an Elliptic Curve based personality |
 | [com.github.generic-trust-anchor-api.basic.enroll](doc/profile_com.github.generic-trust-anchor-api.basic.enroll.md) | Creation of a Certificate Signing Request (CSR) |
 | [com.github.generic-trust-anchor-api.basic.jwt](doc/profile_com.github.generic-trust-anchor-api.basic.jwt.md) | Creation of signed JWT |
