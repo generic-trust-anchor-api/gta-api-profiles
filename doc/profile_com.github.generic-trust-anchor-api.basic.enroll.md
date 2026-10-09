@@ -12,7 +12,7 @@ The following table specifies the behaviour of the function **gta_personality_en
 
 | **Property** | **Description** |
 | ------------ | ----------------|
-| Profile Dependencies | Shall be usable with any personality that is created with com.github.generic-trust-anchor-api.basic.rsa and com.github.generic-trust-anchor-api.basic.ec |
+| Profile Dependencies | Shall be usable with any personality that is created with com.github.generic-trust-anchor-api.basic.rsa, com.github.generic-trust-anchor-api.basic.ec and com.github.generic-trust-anchor-api.basic.ml-dsa |
 | Enrollment Attributes | Supported Context Attributes:<br>**com.github.generic-trust-anchor-api.enroll.subject_rdn** (optional)<br><blockquote>Subject RDN String (zero terminated) as defined in RFC4514. In case of a parsing error or in case the attribute has been set already, the function gta_context_set_attribute() will fail with GTA_ERROR_INVALID_ATTRIBUTE.</blockquote> |
 | Enrollment Artifact | The enrollment artifact is a Certificate Signing Request (CSR) as PKCS#10 in PEM. |
 
@@ -21,7 +21,7 @@ Usage of the profile with any other function than those functions listed in the 
 
 | **Property** | **Description** |
 | ------------ | ----------------|
-| Profile Dependencies | Shall be usable with any personality that is created with com.github.generic-trust-anchor-api.basic.rsa and com.github.generic-trust-anchor-api.basic.ec |
+| Profile Dependencies | Shall be usable with any personality that is created with com.github.generic-trust-anchor-api.basic.rsa, com.github.generic-trust-anchor-api.basic.ec and com.github.generic-trust-anchor-api.basic.ml-dsa |
 | Supported Functions | **Context attribute functions [^1]**<br>**Personality attribute functions [^2]** |
 | Usage Attributes | N/A |
 | Usage Artifact | N/A |
